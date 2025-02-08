@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/b9b972e413.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
 </head>
 <style>
     
@@ -19,7 +21,33 @@
 }
 </style>
 <body class="manrope">
-    <h1>Tea landing</h1>
+  <main class="max-w-screen-xl px-12 md:px-20 lg:px-28 space-x-5 mx-auto">
+    <div class="pt-10 mb-20 flex justify-between items-center">
+        <div>
+            <!-- content part -->
+<h1 class="font-bold text-5xl">It's good <br> tea time at The <br> 
+    Tea House  </h1>
+<p class="text-gray-600 mt-5 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+<button class="bg-linear-to-r from-orange-500 to-red-500 p-5 rounded-xl cursor-pointer text-white font-bold mt-5 space-x-2">Explore More <i class="fa-solid fa-arrow-right -rotate-45 "></i></button>
+</div>
+   <div class="relative">
+   <div>
+    <!-- image part -->
+    <img class="w-full" src="images/banner.png" alt="">
+   </div>
+   <div class="absolute flex gap-2 rounded-lg shadow-lg bg-white p-5 mt-5 items-center top-28 md:top-80 md:left-32 lg:left-28 ">
+    <!-- text part -->
+  <div>  <i class="fa-solid fa-star text-yellow-300"></i></div>
+  <div>
+    <h1 class="font-bold lg:text-2xl">5.00</h1>
+    <p class="text-gray-400">Trust Pilot Ratings</p>
+  </div>
+
+
+   </div>
+   </div>
+</div>
+  </main>
     
 </body>
 </html>
